@@ -1,15 +1,14 @@
-# standard-funcs
+# function-factory
 
-To install dependencies:
+A dead simple proof-of-concept showing how the Standard Schema can be utilized in a library to generate a function that does automatic parameter validation using any schema library implementing the Standard Schema interface.
 
-```bash
-bun install
-```
+## Setup
+Clone and run `bun install`.
 
-To run:
+## Examples
 
-```bash
-bun run index.ts
-```
+See the `/examples` directory for usage.
 
-This project was created using `bun init` in bun v1.2.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Testing
+
+Run `bun test` to unit test against Zod and Valibot.
